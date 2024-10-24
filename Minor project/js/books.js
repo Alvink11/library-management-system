@@ -1,0 +1,1 @@
+import startFirebase from '../firebaseConfig/index'

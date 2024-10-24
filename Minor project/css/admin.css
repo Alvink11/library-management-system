@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=home,palette,settings&display=block');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.navbar .heading {
+    padding: 20px;
+    width: 30px;
+}
+.navbar img{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    height: 100px;
+    width: 100px; 
+    filter:drop-shadow(2px,2px,20px black);
+    
+    
+}
+
+.navbar h1{
+    font-family: 'Poppins', sans-serif;
+    color: #30296e;
+    font-size: 40px;
+    width: 500px;
+}
+
+.image-csvtu img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
+.container nav {
+    position: fixed;
+    margin-top: 117px;
+    top:0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 320px;
+    background: #8c8ab5;
+}
+
+
+.container span {
+    font-weight: bold;   
+    padding-left: 5px;
+    font-size: 18px;
+    text-transform:uppercase;
+    padding: 10px;
+}
+
+a {
+    position: inherit;
+    margin-top: 1%;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(85,83,83);
+    display: table; 
+
+}
+
+.main {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    margin: 130px 350px;
+}
+
+.main-top{
+    display: flex;
+    width:100%;
+}
+
+.main-top i{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
+}
+
+
+footer{
+    background-color:#043f7f;
+    color: white ;
+    text-align: center;
+    bottom: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width: 760px){
+    .form-popup {
+        width: 95%;
+    }
+    .form-content {
+        padding: 30px 20px;
+    }
+}
